@@ -11,7 +11,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+ 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -125,7 +125,7 @@
 			      	<div class="form-group">
 			      		<label for="name">name</label>
 			      		<div class="well well-sm well-input">${bean.name }</div>
-			      		<input type="text" value="${bea.name }" class="form-control" name="name" id="name" placeholder="enter name" />
+			      		<input type="text" value="${bean.name }" class="form-control" name="name" id="name" placeholder="enter name" />
 			      	</div>
 			      	<div class="form-group">
 			      	 	<label>nalja</label>

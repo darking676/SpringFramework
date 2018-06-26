@@ -10,12 +10,13 @@
 		<property name="password" value="tiger" />
 	</bean>
 	
-	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+	<bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
 		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:/sqlMapConfig.xml" />
 	</bean>
 	
-	<bean id="guestDao" class="com.bit.myapp04.model.GuestDaoImpl01">
-		<property name="jdbctemplate" ref="jdbcTemplate" />
+	<bean id="guestDao" class="com.bit.myapp04.model.GuestDaoImpl02">
+		<property name="sqlMapClient" ref="sqlMapClient"></property>
 	</bean>
 
 </beans>
