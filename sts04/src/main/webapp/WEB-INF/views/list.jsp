@@ -23,7 +23,7 @@
 		$('.detailForm input').hide();
 		$('.modal-title').html('상세페이지');
 		$('.modal-footer').show();		
-		$('.well-input').show();		
+		$('.well-input').show();	 	
 	}
 	function edit() {
 		$('.detailForm input').show();
@@ -125,7 +125,7 @@
 			      	<div class="form-group">
 			      		<label for="name">name</label>
 			      		<div class="well well-sm well-input">${bean.name }</div>
-			      		<input type="text" value="${bena.name }" class="form-control" name="name" id="name" placeholder="enter name" />
+			      		<input type="text" value="${bea.name }" class="form-control" name="name" id="name" placeholder="enter name" />
 			      	</div>
 			      	<div class="form-group">
 			      	 	<label>nalja</label>
