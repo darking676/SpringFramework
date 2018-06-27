@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  
+<configuration>
+
+	<typeAliases>
+		<!-- guest.xml에서 resultType을 dto 사용 -->
+		<typeAlias alias="dto" type="com.bit.myapp05.model.entity.GuestVo"/>
+	</typeAliases>
+
+	<mappers>
+		<mapper resource="guest.xml"/>
+	</mappers>
+	
+</configuration>
